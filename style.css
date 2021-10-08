@@ -1,0 +1,110 @@
+body
+{background-color: #FCECDD;
+color: #FEA82F;
+font-family: arial;
+font-size: 16px;}
+
+h1 
+{color: #FF6701;
+font-family: courier;
+font-size: 32px;
+letter-spacing: 8px;
+font-weight: 100;
+}
+
+h2
+{
+color: #FF6701;
+font-family: courier;
+font-size: 24px;
+letter-spacing: 2px;
+}
+
+a {
+color: #FEA82F;
+font-family: arial;
+}
+
+a:hover {
+color: #FF6701;
+font-family: arial;
+}
+
+/* custom design with class */
+
+.container {
+width:900px;
+margin:40px auto ;
+background: #FFFDFA ;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 5px 10px #FF6701;
+text-align: center;
+}
+
+
+@media (max-width: 500px) {
+.container {
+	width: 400px;}
+}
+
+@media (max-width: 500px) {
+.card-white {
+	width: 400px;}
+}
+
+
+@media (max-width: 760px) {
+.container {width: 600px;}
+}
+
+@media (max-width: 760px) {
+.card-white {width: 600px;}
+}
+
+
+.card-white {
+width:900px;
+margin:40px auto ;
+background: #FFFDFA ;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 5px 10px #FF6701;
+text-align: center;
+}
+
+.img-circle {background: #FCECDD ;
+border-radius: 70%;
+margin:10px auto ;
+box-shadow: 0px 5px 10px #FF6701;}
+
+.btn-orange {background-color: #FF6701 ;
+color:#FFFDFA ;
+padding: 5px 10px;
+border-radius: 6px;
+}
+
+.btn-orange:hover {
+background-color: #FEA82F ;
+color:#FFFDFA ;
+}
+
+.list-horizontal {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-horizontal li {
+display: inline;
+padding: 10px;
+}
+
+.list-horizontal i {
+font-size: 50px;
+color:#FEA82F ;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
